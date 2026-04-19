@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey! How can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Have a great day!"
+      ]
+    },
+    {
+      "tag": "movie",
+      "patterns": [
+        "Suggest a movie",
+        "I want movie recommendation",
+        "Recommend movie",
+        "Tell me a good movie"
+      ],
+      "responses": [
+        "You can watch Inception!",
+        "Try Interstellar!",
+        "How about a Marvel movie?"
+      ]
+    },
+    {
+      "tag": "college",
+      "patterns": [
+        "What is CSE?",
+        "Tell me about computer science",
+        "What is computer science engineering?"
+      ],
+      "responses": [
+        "CSE stands for Computer Science Engineering. It focuses on programming, algorithms, AI, and software development."
+      ]
+    }
+  ]
+}
